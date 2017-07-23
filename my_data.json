@@ -1,0 +1,12 @@
+{
+  "ids": {
+    "Product": 4
+  },
+  "models": {
+    "Product": {
+      "1": "{\"name\":\"Cisco 420 firewall\",\"qty\":1,\"id\":1}",
+      "2": "{\"name\":\"LBS server\",\"qty\":10,\"id\":2}",
+      "3": "{\"name\":\"windows server\",\"qty\":10,\"id\":3}"
+    }
+  }
+}
