@@ -3,11 +3,7 @@
  */
 'use strict';
 module.exports = function(app){
-  app.datasources.mysql.automigrate('Product')
+  app.datasources.mysql.autoupdate('Product');
+}
 
 
-//  app.datasources.mysql.automigrate('Product',err => {
-//    if(err) throw err;
-//  console.log('Models Synced');
-//  })
-//}
