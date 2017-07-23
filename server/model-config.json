@@ -20,5 +20,9 @@
   "Company": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "account": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }
