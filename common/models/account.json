@@ -1,5 +1,5 @@
 {
-  "name": "account",
+  "name": "Account",
   "plural": "accounts",
   "base": "User",
   "idInjection": true,

@@ -3,7 +3,7 @@
  */
 'use strict';
 module.exports = function(app){
-  app.datasources.mysql.autoupdate('Product');
+  app.datasources.mongodb.autoupdate(["Product",["Category"],["Account"],["Company"]]);
 }
 
 

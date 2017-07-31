@@ -14,14 +14,14 @@
     ]
   },
   "Product": {
-    "dataSource": "mysql",
+    "dataSource": "mongodb",
     "public": true
   },
   "Company": {
     "dataSource": "mongodb",
     "public": true
   },
-  "account": {
+  "Account": {
     "dataSource": "mongodb",
     "public": true
   },

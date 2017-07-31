@@ -22,7 +22,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "account": {
+      "type": "hasOne",
+      "model": "Account",
+      "foreignKey": "companyId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
